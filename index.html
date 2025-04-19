@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>LUXE | Premium Indian Shopping Experience</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="luxe-logo">
+                <span>L</span>
+                <span>U</span>
+                <span>X</span>
+                <span>E</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating Navigation -->
+    <div class="floating-nav">
+        <a href="#home" class="floating-nav-item active" data-tooltip="Home">
+            <i class="fas fa-home"></i>
+        </a>
+        <a href="#products" class="floating-nav-item" data-tooltip="Products">
+            <i class="fas fa-shopping-bag"></i>
+        </a>
+        <a href="#cart" class="floating-nav-item cart-icon" data-tooltip="Cart">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count">0</span>
+        </a>
+        <a href="#account" class="floating-nav-item" data-tooltip="Account">
+            <i class="fas fa-user"></i>
+        </a>
+    </div>
+
+    <!-- Header -->
+    <header class="glass-header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html">LUXE</a>
+                </div>
+                
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="#home" class="nav-link active">Home</a></li>
+                        <li><a href="#products" class="nav-link">Shop</a></li>
+                        <li><a href="#collections" class="nav-link">Collections</a></li>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="nav-actions">
+                    <div class="search-box">
+                        <input type="text" placeholder="Search LUXE...">
+                        <button class="search-btn"><i class="fas fa-search"></i></button>
+                    </div>
+                    <div class="nav-icons">
+                        <a href="#account" class="nav-icon" aria-label="Account">
+                            <i class="fas fa-user"></i>
+                        </a>
+                        <a href="#wishlist" class="nav-icon" aria-label="Wishlist">
+                            <i class="fas fa-heart"></i>
+                            <span class="wishlist-count">0</span>
+                        </a>
+                        <a href="#cart" class="nav-icon cart-icon" aria-label="Cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="cart-count">0</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <button class="hamburger" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section with Animated Background -->
+    <section class="hero" id="home">
+        <div class="hero-animation">
+            <div class="circle x1"></div>
+            <div class="circle x2"></div>
+            <div class="circle x3"></div>
+            <div class="circle x4"></div>
+            <div class="circle x5"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <span class="hero-subtitle">New Arrivals</span>
+                <h1 class="hero-title">Indian Luxury <span>Redefined</span></h1>
+                <p class="hero-text">Experience the finest Indian craftsmanship with our premium collections. Handpicked for the discerning buyer.</p>
+                <div class="hero-buttons">
+                    <a href="#products" class="btn btn-primary">Shop Now <i class="fas fa-arrow-right"></i></a>
+                    <a href="#collections" class="btn btn-outline">View Collections</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Indian Luxury Products" class="hover-3d">
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories" id="collections">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Collections</h2>
+                <p class="section-subtitle">Handcrafted excellence from across India</p>
+            </div>
+            
+            <div class="category-grid">
+                <div class="category-card hover-scale">
+                    <div class="category-img">
+                        <img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Traditional Wear">
+                        <div class="category-overlay"></div>
+                    </div>
+                    <div class="category-content">
+                        <h3>Traditional Wear</h3>
+                        <a href="#" class="btn btn-outline">Explore <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="category-card hover-scale">
+                    <div class="category-img">
+                        <img src="https://images.unsplash.com/photo-1583744946564-b52d01e2da64?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Jewelry">
+                        <div class="category-overlay"></div>
+                    </div>
+                    <div class="category-content">
+                        <h3>Jewelry</h3>
+                        <a href="#" class="btn btn-outline">Explore <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="category-card hover-scale">
+                    <div class="category-img">
+                        <img src="https://images.unsplash.com/photo-1592878904946-b3cd8ae243d0?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Home Decor">
+                        <div class="category-overlay"></div>
+                    </div>
+                    <div class="category-content">
+                        <h3>Home Decor</h3>
+                        <a href="#" class="btn btn-outline">Explore <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="category-card hover-scale">
+                    <div class="category-img">
+                        <img src="https://images.unsplash.com/photo-1585487000160-6ebcfceb595d?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Accessories">
+                        <div class="category-overlay"></div>
+                    </div>
+                    <div class="category-content">
+                        <h3>Accessories</h3>
+                        <a href="#" class="btn btn-outline">Explore <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured-products" id="products">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Products</h2>
+                <p class="section-subtitle">Premium selections just for you</p>
+            </div>
+            
+            <div class="product-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="men">Men</button>
+                <button class="filter-btn" data-filter="women">Women</button>
+                <button class="filter-btn" data-filter="jewelry">Jewelry</button>
+                <button class="filter-btn" data-filter="home">Home</button>
+            </div>
+            
+            <div class="product-grid" id="product-container">
+                <!-- Products loaded via JavaScript -->
+            </div>
+            
+            <div class="view-more">
+                <a href="#" class="btn btn-secondary">View All Products <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Premium Banner -->
+    <section class="premium-banner">
+        <div class="container">
+            <div class="banner-content">
+                <span class="banner-subtitle">Exclusive Offer</span>
+                <h2 class="banner-title">Festival Special</h2>
+                <p class="banner-text">Celebrate this season with our exclusive collection and get 20% off on all traditional wear.</p>
+                <div class="banner-stats">
+                    <div class="stat-item hover-float">
+                        <h3>20%</h3>
+                        <p>Discount</p>
+                    </div>
+                    <div class="stat-item hover-float">
+                        <h3>Free</h3>
+                        <p>Shipping</p>
+                    </div>
+                    <div class="stat-item hover-float">
+                        <h3>24/7</h3>
+                        <p>Support</p>
+                    </div>
+                </div>
+                <a href="#products" class="btn btn-primary">Shop Now <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="banner-image hover-3d">
+                <img src="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Festival Special">
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Customer Reviews</h2>
+                <p class="section-subtitle">What our customers say</p>
+            </div>
+            
+            <div class="testimonial-slider">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-card hover-glow">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"The quality of products exceeded my expectations. The packaging was luxurious and the delivery was faster than promised. Will definitely shop here again!"</p>
+                        <div class="testimonial-author">
+                            <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Priya Sharma">
+                            <div class="author-info">
+                                <h4>Priya Sharma</h4>
+                                <span>Mumbai</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-slide">
+                    <div class="testimonial-card hover-glow">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p class="testimonial-text">"I've been a customer for over a year now and the consistency in quality is impressive. Their customer service is exceptional."</p>
+                        <div class="testimonial-author">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Rahul Patel">
+                            <div class="author-info">
+                                <h4>Rahul Patel</h4>
+                                <span>Delhi</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-slide">
+                    <div class="testimonial-card hover-glow">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"The personal shopping experience is unmatched. They understood my style perfectly and recommended pieces that I absolutely love."</p>
+                        <div class="testimonial-author">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Ananya Gupta">
+                            <div class="author-info">
+                                <h4>Ananya Gupta</h4>
+                                <span>Bangalore</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-slide">
+                    <div class="testimonial-card hover-glow">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Beautiful products with authentic Indian craftsmanship. The delivery was slightly delayed but worth the wait!"</p>
+                        <div class="testimonial-author">
+                            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Neha Kapoor">
+                            <div class="author-info">
+                                <h4>Neha Kapoor</h4>
+                                <span>Hyderabad</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-controls">
+                <button class="testimonial-prev hover-scale"><i class="fas fa-chevron-left"></i></button>
+                <div class="testimonial-dots"></div>
+                <button class="testimonial-next hover-scale"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Subscribe to Our Newsletter</h2>
+                <p>Get exclusive offers, early access to new collections, and style inspiration delivered to your inbox.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-about">
+                    <h3 class="footer-title">LUXE</h3>
+                    <p class="footer-text">Redefining Indian luxury shopping with curated collections, exceptional quality, and personalized service.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook" class="hover-scale"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram" class="hover-scale"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter" class="hover-scale"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Pinterest" class="hover-scale"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3 class="footer-title">Shop</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" class="hover-underline">New Arrivals</a></li>
+                        <li><a href="#" class="hover-underline">Best Sellers</a></li>
+                        <li><a href="#" class="hover-underline">Sale Items</a></li>
+                        <li><a href="#" class="hover-underline">Gift Cards</a></li>
+                        <li><a href="#" class="hover-underline">Lookbook</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3 class="footer-title">Information</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" class="hover-underline">About Us</a></li>
+                        <li><a href="#" class="hover-underline">Sustainability</a></li>
+                        <li><a href="#" class="hover-underline">Careers</a></li>
+                        <li><a href="#" class="hover-underline">Blog</a></li>
+                        <li><a href="#" class="hover-underline">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3 class="footer-title">Customer Service</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" class="hover-underline">Contact Us</a></li>
+                        <li><a href="#" class="hover-underline">FAQs</a></li>
+                        <li><a href="#" class="hover-underline">Shipping & Returns</a></li>
+                        <li><a href="#" class="hover-underline">Size Guide</a></li>
+                        <li><a href="#" class="hover-underline">Order Tracking</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col footer-contact">
+                    <h3 class="footer-title">Contact</h3>
+                    <ul class="footer-contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Luxury Avenue, Mumbai 400001</li>
+                        <li><i class="fas fa-phone-alt"></i> +91 98765 43210</li>
+                        <li><i class="fas fa-envelope"></i> hello@luxe.in</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="payment-methods">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/MasterCard_Logo.svg/1200px-MasterCard_Logo.svg.png" alt="Mastercard" class="hover-scale">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Visa_Inc._logo.svg/1200px-Visa_Inc._logo.svg.png" alt="Visa" class="hover-scale">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Paypal_2014_logo.png/1200px-Paypal_2014_logo.png" alt="PayPal" class="hover-scale">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/RuPay.svg/1200px-RuPay.svg.png" alt="RuPay" class="hover-scale">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_Pay_logo.svg/1200px-Apple_Pay_logo.svg.png" alt="Apple Pay" class="hover-scale">
+                </div>
+                
+                <div class="theme-toggle-container">
+                    <button class="theme-toggle hover-scale" aria-label="Toggle theme">
+                        <i class="fas fa-moon"></i>
+                        <i class="fas fa-sun"></i>
+                    </button>
+                </div>
+                
+                <div class="copyright">
+                    <p>&copy; 2023 LUXE. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Shopping Cart Sidebar -->
+    <div class="cart-sidebar">
+        <div class="cart-header">
+            <h3>Your Shopping Bag</h3>
+            <button class="close-cart hover-scale">&times;</button>
+        </div>
+        <div class="cart-items">
+            <!-- Cart items loaded here -->
+        </div>
+        <div class="cart-summary">
+            <div class="cart-totals">
+                <div class="cart-row">
+                    <span>Subtotal</span>
+                    <span class="cart-subtotal">₹0.00</span>
+                </div>
+                <div class="cart-row">
+                    <span>Shipping</span>
+                    <span class="cart-shipping">Calculated at checkout</span>
+                </div>
+                <div class="cart-row total">
+                    <span>Total</span>
+                    <span class="cart-total">₹0.00</span>
+                </div>
+            </div>
+            <button class="btn btn-primary checkout-btn hover-scale">Proceed to Checkout</button>
+            <div class="cart-continue">
+                <a href="#" class="continue-shopping hover-underline">Continue Shopping</a>
+            </div>
+        </div>
+    </div>
+    <div class="cart-overlay"></div>
+
+    <!-- Product Quick View Modal -->
+    <div class="quick-view-modal">
+        <div class="quick-view-container">
+            <button class="close-quick-view hover-scale">&times;</button>
+            <div class="quick-view-content">
+                <!-- Content loaded via JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast-notification">
+        <div class="toast-content">
+            <i class="fas fa-check-circle"></i>
+            <span class="toast-message">Product added to cart!</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
